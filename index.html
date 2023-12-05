@@ -66,7 +66,7 @@
             position: absolute;
             transform: translateY(-50%);
             left: 0;
-            color: #030303;
+            color: white;
             font-size: 16px;
             pointer-events: none;
             transition: 0.15s ease;
@@ -79,7 +79,7 @@
             border: none;
             outline: none;
             font-size: 16px;
-            color: #100505;
+            color: white;
         }
 
         .input-field input:focus ~ label,
@@ -111,7 +111,7 @@
         }
 
         .wrapper a {
-            color: #080808;
+            color: white;
             text-decoration: none;
         }
 
@@ -121,7 +121,7 @@
 
         button {
             background: rgb(250, 249, 249);
-            color: #000;
+            color: white;
             font-weight: 600;
             border: none;
             padding: 12px 20px;
@@ -148,11 +148,11 @@
 <body>
 
     <form action="#">
-        <h2  style="color:white">WASTE COLLECTION SCHEDULES</h2>
+        <h2>WASTE COLLECTION SCHEDULES</h2>
         <h3  style="color:white">Enter your address below to find your waste collection schedule</h3>
         <div class="input-field">
             <input type="text" id="address" name="address" required>
-            <label  style="color:white">Enter your address</label>
+            <label style="color:white">Enter your address</label>
         </div>
         
         <button type="button" id="getScheduleBtn">Get schedule</button>
